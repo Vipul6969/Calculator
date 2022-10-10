@@ -1,0 +1,127 @@
+.container{
+    text-align: center;
+    margin: 23px;
+    
+}
+body{
+  /*  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+/*background: #282828;
+*/
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,103,121,0.9472163865546218) 35%, rgba(0,212,255,1) 100%);
+
+
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  
+
+
+table{
+    margin: auto;
+    padding: 10px;
+    
+    
+
+}
+input{
+    background-color:grey;
+    font-size: 23px;
+    border: 3px solid brown;
+    border-radius: 5px;
+    font-style: italic;
+    width: 320px;
+    height: 50px;
+   
+}
+button{
+    /* color: green; */
+    font-size: 23px;
+    background: black;
+    color: rgb(22, 128, 221);
+    width: 80px;
+    border-radius: 10px;
+    border: 10px;
+    height: 45px;
+    cursor: pointer;
+}
+.calculator{
+    background-color:	#F5F5F5;
+   
+    padding: 23px 10px;
+    border-radius: 25px;
+    display: inline-block;
+}
+#AC{
+    color: rgb(10, 7, 10);
+    background-color: brown;
+}
+#DEL{
+    color: rgb(5, 5, 5);
+    background-color: brown;
+}
+#AB{
+    color:brown;
+}
+#AD{
+    color:brown;
+   }
+#AE{
+    color:brown;
+   }
+#AF{
+    color:brown;
+   }
+#AG{
+    color:brown;
+   }
+ #mo{
+    
+    border-radius: 50%;
+   background-color:#F5F5F5 ;
+   color: #06b6d4;
+   font-style: italic;
+   
+
+ }
+         
+
+button:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+#vp{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+ #new {
+ 
+  width: 240px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -1s;
+  animation-iteration-count: infinite;
+ 
+}
+
+@keyframes example {
+ 
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:yellow; left:1120px; top:0px;}
+ 
+}
